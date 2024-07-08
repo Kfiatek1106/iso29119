@@ -1,3 +1,18 @@
+# ISO 29119
+ISO 29119 - Software and systems engineering - Software testing is a set of documents that define an internationally agreed set of standards for software testing that can be used by any organization when performing any form of software testing [source] 
+
+The standard with its latest and historical versions is available on the IEEE website.
+
+The standard contains the following parts:
+
+ISO 29119-1: Software and systems engineering - Software testing - Part 1: Concepts and definitions
+ISO 29119-2: Software and systems engineering - Software testing - Part 2: Test processes
+ISO 29119-3: Software and systems engineering - Software testing - Part 3: Test documentation
+ISO 29119-3: Software and systems engineering - Software testing - Part 4: Test techniques
+ISO 29119-3: Software and systems engineering - Software testing - Part 5: Keyword-Driven Testing
+The ISO 29119-3 inspired to develop the ISO 29119 python package. Some of the aspects from the standard have been adopted to the package, others have been created as a result of needs to make the package functional.
+
+
 # Benefits of the ISO29119 module:
 - data for analysis unified to one common format (an abstract class: Metadata)
 - title, final result, status, and state as one set of common attributes of the unified data, preconditions, test conditions including their attributes, postconditions, individual test cases, and their collections (an abstract class: Item)
