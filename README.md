@@ -1,7 +1,5 @@
 # ISO 29119 - Software and systems engineering - Software testing
-It is a set of documents that define an internationally agreed set of standards for software testing that can be used by any organization when performing any form of software testing [source] 
-
-The standard with its latest and historical versions is available on the IEEE website.
+It is a set of documents that define an internationally agreed set of standards for software testing that can be used by any organization when performing any form of software testing The standard with its latest and historical versions is available on the [IEEE website](https://ieeexplore.ieee.org/Xplore/home.jsp).
 
 The standard contains the following parts:
 
