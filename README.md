@@ -10,5 +10,5 @@
       - test attribute
     - postcondition
 - ready-to-use function to print
-  -tests status report
+  - tests status report
   - test case report
