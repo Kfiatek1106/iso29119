@@ -10,7 +10,7 @@ ISO 29119-2: Software and systems engineering - Software testing - Part 2: Test 
 ISO 29119-3: Software and systems engineering - Software testing - Part 3: Test documentation
 ISO 29119-3: Software and systems engineering - Software testing - Part 4: Test techniques
 ISO 29119-3: Software and systems engineering - Software testing - Part 5: Keyword-Driven Testing
-The ISO 29119-3 inspired to develop the ISO 29119 python package. Some of the aspects from the standard have been adopted to the package, others have been created as a result of needs to make the package functional.
+The ISO 29119-3 inspired the development of the ISO 29119 python package. Some of the aspects from the standard have been adapted to the package, and others have been created as a result of the need to make the package functional.
 
 
 # Benefits of the ISO29119 module:
