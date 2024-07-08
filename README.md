@@ -1,5 +1,5 @@
-# ISO 29119
-ISO 29119 - Software and systems engineering - Software testing is a set of documents that define an internationally agreed set of standards for software testing that can be used by any organization when performing any form of software testing [source] 
+# ISO 29119 - Software and systems engineering - Software testing
+Itg is a set of documents that define an internationally agreed set of standards for software testing that can be used by any organization when performing any form of software testing [source] 
 
 The standard with its latest and historical versions is available on the IEEE website.
 
