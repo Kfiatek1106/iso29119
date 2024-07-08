@@ -3,7 +3,7 @@ from enum import Enum
 from ..enum import *
 
 
-def validate_input(value: str | int | float) -> str:
+def validate_input(value: str) -> str:
     if isinstance(value, (str, int, float)):
         return str(value)
     return ''
