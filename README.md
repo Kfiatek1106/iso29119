@@ -14,4 +14,4 @@
   - test case report
 
 
-(/iso29119/docs/class_diagram.png)
+![ISO 29119 - Class Diagram](/iso29119/docs/class_diagram.png)
