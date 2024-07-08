@@ -14,8 +14,8 @@
   - test case report
 
 
-# Items inspired by the ISO 29119
-## Test Case
+## Items inspired by the ISO 29119
+### Test Case
 A set of test case preconditions, inputs (including actions, where applicable), and expected results, developed to drive the execution of a test item to meet test objectives, including correct implementation, error identification, checking quality, and other valued information. Test case groups the following information:
 - unique identifier
 - title
@@ -28,7 +28,7 @@ A set of test case preconditions, inputs (including actions, where applicable), 
 - set of preconditions
 - set of test conditions
 - set of post-conditions
-# Precondition
+### Precondition
 A testable aspect has to be true before the test conditions
 - execution
 - title
@@ -36,7 +36,7 @@ A testable aspect has to be true before the test conditions
 - status
 - state
 - additional information
-# Test Condition
+### Test Condition
 A testable aspect of a structural element is identified as a basis for testing. It contains:
 - title
 - final result
@@ -46,7 +46,7 @@ A testable aspect of a structural element is identified as a basis for testing. 
 - an expected element
 - an actual element
 - additional information
-# Test Attribute
+### Test Attribute
 A testable aspect of a characteristic of the structural element (test condition).
 - title
 - final result
@@ -54,34 +54,34 @@ A testable aspect of a characteristic of the structural element (test condition)
 - state
 - an expected value
 - an actual value
-# Post condition
+### Post condition
 A testable aspect has to be true after execution of the test conditions. It contains:
 - title
 - final result
 - status
 - state
 - additional information
-# Priority
+### Priority
 The importance of an item. It contains:
 - High
 - Medium
 - Low
 - None
-# Final Result
+### Final Result
 The validation outcome of an item. It can take one of the following:
 - Pass
 - Fail
 - '-' (no issue)
 - Attention
 - Warning
-# Status
+### Status
 An item condition at the test execution time.
 - execute
 - omit
 - executed
 - omitted
 - not executed '-'
-# State
+### State
 An item condition at the test validation time.
 - present (exists)
 - not present (does not exists)
@@ -89,31 +89,78 @@ An item condition at the test validation time.
 - not available
 - missing
 - redundant'-'
-# Test Cases
+### Test Cases
 Collection of the individual Test Cases. It contains:
 - title
 - final result
 - status
 - state
-- total of passed
- Test Casestotal of failed Test Casestotal of Test Cases that need attentionPreconditionsCollection of the individual Preconditions.It contains:titlefinal resultstatusstatetotal of passed Preconditionstotal of failed Preconditionstotal of Preconditions that need attentionPost ConditionsCollection of the individual Post Conditions. It contains:titlefinal resultstatusstatetotal of passed Post Conditionstotal of failed Post Conditionstotal of Post Conditions that need attentionTest ConditionsCollection of the individual Test Conditions.It contains:titlefinal resultstatusstatetotal of passed Test Conditionstotal of failed Test Conditionstotal of Test Conditions that need attentionTest AttributesCollection of the individual Test Attributes.It contains:titlefinal resultstatusstatetotal of passed Test Attributestotal of failed Test Attributestotal of Test Attributes that need attention
+- total of passed Test Cases
+- total of failed Test Cases
+- total of Test Cases that need attention
+### Preconditions
+Collection of the individual Preconditions. It contains:
+- title
+- final result
+- status
+- state
+- total of passed Preconditions
+- total of failed Preconditions
+- total of Preconditions that need attention
+### Post Conditions
+Collection of the individual Post Conditions. It contains: 
+- title
+- final result
+- status
+- state
+- total of passed Post Conditions
+- total of failed Post Conditions
+- total of Post Conditions that need attention
+### Test Conditions
+Collection of the individual Test Conditions. It contains:
+- title
+- final result
+- status
+- state
+- total of passed Test Conditions
+- total of failed Test Conditions
+- total of Test Conditions that need attention
+### Test Attributes
+Collection of the individual Test Attributes. It contains:
+- title
+- final result
+- status
+- state
+- total of passed Test Attributes
+- total of failed Test Attributes
+- total of Test Attributes that need attention
 
 
-Items increase functionalityItemAn abstract description of common characteristics of all elements of the items inspired by ISO 29119 and not inspired by the ISO.It stores:final resultstatusstatetitleItemsAn abstract description of common characteristics of all collections of the inspired by ISO 29119.It stores:collection of itemsConditionAn abstract description of common characteristics of conditions of the inspired by ISO 29119.It stores:type of the conditionadditional informationCondition TypeSort of the condition. Its elements are:preconditionpost conditiontest conditionattribute'-'metadataMetadataAn abstract description of information that is given to describe the structural elements or its attributes.Metadata CollectionAn abstract description of the collection of individual metadata.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Items increase functionality
+### Item
+An abstract description of common characteristics of all elements of the items inspired by ISO 29119 and not inspired by the ISO. It stores:
+- final result
+- status
+- state
+- title
+### Items
+An abstract description of common characteristics of all collections of the inspired by ISO 29119. It stores:
+- collection of items
+### Condition
+An abstract description of common characteristics of conditions of the inspired by ISO 29119. It stores:
+- type of the condition
+- additional information
+### Condition Type
+Sort of the condition. Its elements are:
+- precondition
+- post condition
+- test condition
+- attribute'-'
+- metadata
+### Metadata
+An abstract description of information that is given to describe the structural elements or its attributes. 
+### Metadata Collection
+An abstract description of the collection of individual metadata.
 
 
 ![ISO 29119 - Class Diagram](/iso29119/docs/class_diagram.png)
