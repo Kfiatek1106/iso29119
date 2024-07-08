@@ -12,3 +12,6 @@
 - ready-to-use function to print
   - tests status report
   - test case report
+
+
+(/iso29119/docs/class_diagram.png)
