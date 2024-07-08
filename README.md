@@ -162,5 +162,6 @@ An abstract description of information that is given to describe the structural 
 ### Metadata Collection
 An abstract description of the collection of individual metadata.
 
+## UML Class Diagram
 
 ![ISO 29119 - Class Diagram](/iso29119/docs/class_diagram.png)
